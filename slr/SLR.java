@@ -33,7 +33,7 @@ public class SLR {
 	// Imprimir ecuación de regresión
 	public void displayRegEq() {
 	
-		System.out.println("sales =  " + beta0 + " + " + beta1 + " + " + "advertising");
+		System.out.println("sales =  " + beta0 + " + " + beta1 +  "advertising");
 	}
 
         // predicir ventas en función a un valor dado de advertising
