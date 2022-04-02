@@ -1,4 +1,8 @@
 
+// Author José Antonio Aviña Méndez
+// TecMM
+
+
 public class SLR {
 	private double beta0;
 	private double beta1;

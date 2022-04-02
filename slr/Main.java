@@ -1,4 +1,7 @@
 
+// Author José Antonio Aviña Méndez
+// TecMM
+
 public class Main {
 
 	public static void main(String[] noseusa) {
