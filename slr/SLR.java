@@ -14,7 +14,7 @@ public class SLR {
 	}
         
 
-	// Calcular B0,  parámtero del modelo SLR 
+	// calcular B0,  parámetro del modelo SLR 
 	public double calculateB0(double[] vectorSales, double[]  vectorAdvertising) {
 			
 		beta0 = 0;// aquí se codifica el modelo matemático construido en clase para B0
@@ -22,7 +22,7 @@ public class SLR {
 		return beta0;
 	}
 
-	// Calcular B1,  parámtero del modelo SLR 
+	// calcular B1,  parámetro del modelo SLR 
 	public double calculateB1(double[] vectorSales, double[] vectorAdvertising) {
 		
 		beta1 = 0;// aquí se codifica el modelo matemático construido en clase para B1
@@ -30,7 +30,7 @@ public class SLR {
 		return beta1;
 	}
 
-	// Imprimir ecuación de regresión
+	// imprimir ecuación de regresión
 	public void displayRegEq() {
 	
 		System.out.println("sales =  " + beta0 + " + " + beta1 +  "advertising");
